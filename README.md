@@ -22,7 +22,8 @@ A API irá rodar nos seguintes endereços: `https://localhost:5001` e `http://lo
 
 ## Rotas
 
-GET /todos
+`GET /todos`
+
 Retorna todos os Todos salvos no banco.
 
 Exemplo de resposta:
@@ -31,12 +32,14 @@ Exemplo de resposta:
 
 <br>
 
-GET /todos/{id}
+`GET /todos/{id}`
+
 Retorna um único Todo pelo que tenha o mesmo id informado na URL, retornando Not Found, se o mesmo não for encontrado.
 
 <br>
 
-POST /todos
+`POST /todos`
+
 Salva um todo no banco, enviado no corpo da requisição, que deverá conter obrigatoriamente um JSON com a chave "title" e um valor diferente de vazio.
 
 Exemplo de envio para adição do Todo:
@@ -45,7 +48,8 @@ Exemplo de envio para adição do Todo:
 
 <br>
 
-PUT /todos/{id}
+`PUT /todos/{id}`
+
 Edita um todo, que exista com o id informado na url, retornando Not Found se o mesmo não for encontrado. No corpo da requisição é preciso informar o "title" e o "done" no JSON enviado.
 
 Exemplo de corpo na requisição:
@@ -54,7 +58,8 @@ Exemplo de corpo na requisição:
 
 <br>
 
-DELETE /todos/{id}
+`DELETE /todos/{id}`
+
 Remove um todo do banco para o id informado, retornando Not Found se o mesmo não for encontrado no banco.
 
 <br>

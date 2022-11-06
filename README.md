@@ -4,7 +4,7 @@ Um CRUD simples com api em C#, utilizando Entity Framework com Sqlite.
 
 ## Como Executar
 
-Para executar o projeto, é preciso ter instalado em sua máquina o CLI do ef core. Um tutorial completo sobre o mesmo está disponível (Aqui)[https://learn.microsoft.com/pt-br/ef/core/cli/dotnet].
+Para executar o projeto, é preciso ter instalado em sua máquina o CLI do ef core. Um tutorial completo sobre o mesmo está disponível [Aqui](https://learn.microsoft.com/pt-br/ef/core/cli/dotnet).
 
 Execute `dotnet ef migrations add NOME_MIGRACAO`, onde o NOME_MIGRACAO pode ser qualquer um à sua escolha. O comando cria uma migração do entity framework na pasta Migrations do projeto.
 

@@ -65,3 +65,5 @@ Exemplo de corpo na requisição:
 Remove um todo do banco para o id informado, retornando Not Found se o mesmo não for encontrado no banco.
 
 <br>
+
+Créditos ao Balta, vídeo do tutorial da API: https://www.youtube.com/watch?v=QzCSN9wN4JA&ab_channel=balta.io
